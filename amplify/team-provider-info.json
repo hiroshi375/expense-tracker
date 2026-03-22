@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-expensetracker-dev-e8101-authRole",
+      "UnauthRoleArn": "arn:aws:iam::005466002626:role/amplify-expensetracker-dev-e8101-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::005466002626:role/amplify-expensetracker-dev-e8101-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-expensetracker-dev-e8101-deployment",
+      "UnauthRoleName": "amplify-expensetracker-dev-e8101-unauthRole",
+      "StackName": "amplify-expensetracker-dev-e8101",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:005466002626:stack/amplify-expensetracker-dev-e8101/86d08f90-2507-11f1-a6f9-0ea727fc6b51",
+      "AmplifyAppId": "d26jep79inxfbe",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-expensetracker-dev-e8101-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "expensetrackere200434e": {}
+      },
+      "api": {
+        "expensetracker": {},
+        "expenseTrackerApi": {}
+      },
+      "function": {
+        "expensetrackerbd853aa5": {
+          "deploymentBucketName": "amplify-expensetracker-dev-e8101-deployment",
+          "s3Key": "amplify-builds/expensetrackerbd853aa5-2f4a756d4d7535777142-build.zip"
+        }
+      }
+    }
+  }
+}

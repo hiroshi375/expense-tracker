@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/parseReceipt": {
+      "name": "/parseReceipt",
+      "lambdaFunction": "expensetrackerbd853aa5",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
