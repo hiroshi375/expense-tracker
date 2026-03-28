@@ -38,9 +38,7 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <Link href="/modal">
-          <Link.Trigger>
             <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-          </Link.Trigger>
           <Link.Preview />
           <Link.Menu>
             <Link.MenuAction title="Action" icon="cube" onPress={() => alert('Action pressed')} />
